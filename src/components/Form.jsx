@@ -120,8 +120,8 @@ class Form extends React.Component {
 
           <Dropdown label= 'Purchase Order' name="purchaseOrder" value={this.state.purchaseOrder} options={po_desc} onChange={this.handleChange}/>
         
-          <div>
-            <button onClick={this.handleSubmit}>Submit</button>
+          <div style={{ display:"flex",width:"30rem",justifyContent:'center', marginTop: '2rem'}}>
+            <button style ={{height : '2rem', width : '6rem', fontWeight:'bold'}}onClick={this.handleSubmit}>Submit</button>
           </div>
           <hr />
           <div >
