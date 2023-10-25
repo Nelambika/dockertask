@@ -1,8 +1,9 @@
+Prerequisites:
+NodeJs
+
 In the project directory, you can run:
 
 npm install papaparse
-
-npm run
 
 npm start
 
